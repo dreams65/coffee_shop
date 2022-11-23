@@ -1,4 +1,4 @@
-@import url('../vendor/normalize.css');
+@import url('/vendor/normalize.css');
 @import url('https://fonts.googleapis.com/css2?family=Jost:wght@400;500;800&display=swap');
 @import url('../vendor/root.css');
 
@@ -6,19 +6,19 @@
 @import url('../blocks/container/container.css');
 
 /* ===> Header */
-@import url('../blocks/header/header.css');
-@import url('../blocks/header/__row/header__row.css');
-@import url('../blocks/header/__wrapper/header_wrapper.css');
-@import url('../blocks/header/__wrapper/_active/header__wrapper_active.css');
-@import url('../blocks/header/__nav-items/header__nav-items.css');
-@import url('../blocks/header/__nav-item/header__nav-item.css');
-@import url('../blocks/header/__nav-link/header__nav-link.css');
-@import url('../blocks/header/__buttons/header__buttons.css');
-@import url('../blocks/header/__button/header__button.css');
-@import url('../blocks/header/__button/_icon/header__button_icon.css');
-@import url('../blocks/header/__button/_accent/header__button_accent.css');
-@import url('../blocks/header/__burger-btn/header__burger-btn.css');
-@import url('../blocks/header/__burger-btn/_line/header__burger-btn_line.css');
+@import url('./blocks/header/header.css');
+@import url('./blocks/header/__row/header__row.css');
+@import url('./blocks/header/__wrapper/header_wrapper.css');
+@import url('./blocks/header/__wrapper/_active/header__wrapper_active.css');
+@import url('./blocks/header/__nav-items/header__nav-items.css');
+@import url('./blocks/header/__nav-item/header__nav-item.css');
+@import url('./blocks/header/__nav-link/header__nav-link.css');
+@import url('./blocks/header/__buttons/header__buttons.css');
+@import url('./blocks/header/__button/header__button.css');
+@import url('./blocks/header/__button/_icon/header__button_icon.css');
+@import url('./blocks/header/__button/_accent/header__button_accent.css');
+@import url('./blocks/header/__burger-btn/header__burger-btn.css');
+@import url('./blocks/header/__burger-btn/_line/header__burger-btn_line.css');
 
 /*===> Hero */
 @import url('../blocks/hero/hero.css');
