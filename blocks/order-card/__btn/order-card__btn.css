@@ -1,0 +1,21 @@
+.order-card__btn {
+    margin-left: 63px;
+    color: #fff;
+    text-transform: uppercase;
+    font-size: 1.12rem;
+    font-weight: 500;
+    padding: 15px 30px;
+    background-color: var(--Accent);
+    border-radius: 126px;
+    max-height: min-content;
+    height: 100%;
+    max-width: max-content;
+    width: 100%;
+    border: none;
+    cursor: pointer;
+    transition: .3s;
+}
+
+.order-card__btn:hover {
+    background-color: var(--Accent-body);
+}

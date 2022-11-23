@@ -1,0 +1,15 @@
+.our-app__elipse {
+    z-index: 1;    
+}
+
+@media screen and (max-width: 820px) {
+    .our-app__elipse {
+        max-width: 300px;
+    }
+}
+
+@media screen and (min-width: 1024px) {
+    .our-app__elipse {
+        max-width: 500px;
+    }
+}

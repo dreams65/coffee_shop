@@ -1,0 +1,10 @@
+
+.reviews__title {
+    max-width: 454px;
+    width: 100%;
+    color: var(--Acccent);
+    font-size: var(--Title-Size);
+    line-height: 70px;
+    font-weight: 800;
+    margin: 0;
+}

@@ -1,0 +1,8 @@
+.our-app__description {
+    max-width: 512px;
+    width: 100%;
+    color: var(--Accent-body);
+    font-weight: 400;
+    font-size: var(--Subtitle-Size);
+    margin: 30px 0 0 0;
+}

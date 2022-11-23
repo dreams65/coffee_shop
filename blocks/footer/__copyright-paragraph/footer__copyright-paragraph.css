@@ -1,0 +1,6 @@
+.footer__copyright-paragraph {
+    font-size: 1.3rem;
+    color: var(--Accent-body);
+    font-weight: 500;
+    line-height: 30px;
+}

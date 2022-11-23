@@ -1,0 +1,12 @@
+.subscribe__input {
+    padding: 20px 30px;
+    box-shadow: 0px 12px 30px rgba(205, 209, 214, 0.28);
+    border-radius: 65px;
+    border: none;
+} 
+
+@media screen and (max-width: 820px) {
+    .subscribe__input {
+        width: 80%;
+    }
+}

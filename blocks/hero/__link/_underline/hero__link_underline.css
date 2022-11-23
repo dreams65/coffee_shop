@@ -1,0 +1,5 @@
+.hero__link_underline {
+    border-bottom: 1px solid var(--Accent);
+    color: var(--Accent);
+    margin-left: 30px;
+}

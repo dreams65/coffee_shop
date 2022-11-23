@@ -1,0 +1,12 @@
+.our-app__decoration {
+    position: absolute;
+    left: 0;
+    top: -300px;
+}
+
+@media screen and (max-width: 820px) {
+    .our-app__decoration {
+        max-width: 200px;
+        top: -130px
+    }
+}

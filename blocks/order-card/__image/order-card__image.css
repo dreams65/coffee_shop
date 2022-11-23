@@ -1,0 +1,14 @@
+.order-card__image {
+    margin-top: -105px;
+    margin-left: -30px;
+    max-width: 176px;
+    width: 100%;
+    height: auto;
+    /* transform:rotateX(90deg); */
+    transition: .5s;
+}
+
+/* .order-card__image_animation_active {
+    transform:rotateX(0deg);
+    transition: .5s;
+} */

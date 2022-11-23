@@ -1,0 +1,17 @@
+.our-app__title {
+    max-width: 512px;
+    width: 100%;
+    color: var(--Acccent);
+    line-height: 70px;
+    font-weight: 800;
+    font-size: var(--Title-Size);
+    margin: 0;
+}
+
+@media screen and (max-width: 820px) {
+    .our-app__title {
+        font-size: var(--Title-Size-Sm);
+        line-height: 50px;
+        margin-top: 75px;
+    }
+}

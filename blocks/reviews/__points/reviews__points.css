@@ -1,0 +1,7 @@
+.reviews__points {
+    color: var(--Acccent);
+    font-weight: 600;
+    font-size: 2.5rem;
+    line-height: 40px;
+    margin: 0 24px 0 0;
+}

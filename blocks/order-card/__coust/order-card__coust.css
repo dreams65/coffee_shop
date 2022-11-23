@@ -1,0 +1,6 @@
+.order-card__cost {
+    color: var(--Accent);
+    font-size: 1.87rem;
+    font-weight: 500;
+    line-height: 28px;
+}

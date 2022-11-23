@@ -1,0 +1,19 @@
+.header__nav-link {
+    text-decoration: none;
+    font-size: 0.9rem;
+    color: var(--Accent);
+    font-weight: 500;
+    line-height: 22px;
+    transition: .3s;
+}
+
+.header__nav-link:hover {
+    transition: .3s;
+    opacity: .8;
+}
+
+@media screen and (max-width: 820px) {
+    .header__nav-link {
+        font-size: 2rem;
+    }
+}

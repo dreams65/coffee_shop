@@ -1,0 +1,6 @@
+.customers-card__reviews {
+    font-size: 1.25rem;
+    color: var(--Accent);
+    line-height: 30px;
+    margin-top: 32px;
+}

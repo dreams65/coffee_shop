@@ -1,0 +1,22 @@
+.header__button_icon {
+    background-image: url('/img/ui/cart.svg');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 24px;
+    width: 56px;
+    height: 56px;
+    border-radius: 50%;
+    margin-right: 20px;
+    background-color: #fff;
+    transition: .3s;
+}
+
+.header__button_icon:hover {
+    box-shadow: 0px 12px 10px rgba(0, 0, 0, 0.384);
+}
+
+@media screen and (max-width: 820px) {
+    .header__button_icon {
+        margin: 30px 0 0 0;
+    }
+}

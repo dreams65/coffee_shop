@@ -1,0 +1,7 @@
+.hero__rating-text {
+    max-width: 232px;
+    width: 100%;
+    font-size: 19px;
+    color: var(--Accent-body);
+    margin: 0;
+}

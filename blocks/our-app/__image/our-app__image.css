@@ -1,0 +1,10 @@
+.our-app__image {
+    max-width: 625px;
+    width: 100%;
+    height: auto;
+    object-fit: contain;
+    position: absolute;
+    top: 50%;
+    transform: translate(0, -50%);
+    z-index: 2;
+}

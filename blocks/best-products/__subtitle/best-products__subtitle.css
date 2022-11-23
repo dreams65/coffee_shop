@@ -1,0 +1,17 @@
+.best-products__subtitle {
+    max-width: 418px;
+    width: 100%;
+    color: var(--Accent-body);
+    font-size: var(--Subtitle-size);
+    font-weight: 400;
+    text-align: center;
+    margin: 0 auto;
+    margin-top: 24px;
+    line-height: 34.6px;
+}
+
+@media screen and (max-width: 820px) {
+    .best-products__subtitle{
+        line-height: 20px;
+    }
+}

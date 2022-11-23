@@ -1,0 +1,7 @@
+.order-card__description {
+    font-weight: 400;
+    color: var(--Accent-body);
+    font-size: 1.25rem;
+    line-height: 28px;
+    margin: 37px 0 0 0;
+}

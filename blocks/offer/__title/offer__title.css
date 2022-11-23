@@ -1,0 +1,16 @@
+.offer__title {
+    font-size: var(--Title-Size);
+    font-weight: 800;
+    color: var(--Accent);
+    line-height: 70px;
+    margin: 0;
+}
+
+@media screen and (max-width: 820px) {
+    .offer__title {
+        font-size: var(--Title-Size-Sm);
+        max-width: 768px;
+        top: 153px;
+        line-height: 60px;
+    }
+}

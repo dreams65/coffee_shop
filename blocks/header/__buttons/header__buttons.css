@@ -1,0 +1,12 @@
+.header__buttons {
+    display: flex;
+}
+
+@media screen and (max-width: 820px) {
+    .header__buttons {
+        flex-direction: column-reverse;
+        justify-content: center;
+        align-items: center;
+        margin-top: 10%;
+    }
+}

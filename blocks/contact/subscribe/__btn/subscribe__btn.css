@@ -1,0 +1,25 @@
+.subscribe__btn {
+    margin: 30px 0 0 0;
+    background: var(--Accent);
+    color: #fff;
+    text-transform: uppercase;
+    font-size: 1rem;
+    font-weight: 500;
+    line-height: 30px;
+    padding: 20px 40px;
+    border-radius: 126px;
+    border: none;
+    cursor: pointer;
+    width: min-content;
+    transition: .3s;
+}
+
+.subscribe__btn:hover {
+    background-color: var(--Accent-body);
+}
+
+@media screen and (max-width: 820px) {
+    .subscribe__btn {
+        padding: 15px 30px;
+    }
+}

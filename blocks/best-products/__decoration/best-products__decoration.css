@@ -1,0 +1,12 @@
+.best-products__decoration {
+    position: absolute;
+    right: 0;
+    top: -171px;
+}
+
+@media screen and (max-width: 820px) {
+    .best-products__decoration {
+        top: -250px;
+        right: -1px;
+    }
+}

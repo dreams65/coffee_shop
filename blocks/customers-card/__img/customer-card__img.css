@@ -1,0 +1,5 @@
+.customers-card__img {
+    max-width: 468px;
+    width: 100%;
+    object-fit: contain;
+}

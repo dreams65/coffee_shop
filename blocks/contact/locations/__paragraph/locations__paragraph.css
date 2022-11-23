@@ -1,0 +1,17 @@
+.locations__paragraph {
+    max-width: 558px;
+    width: 100%;
+    color: var(--Accent-body);
+    font-size: 1.8rem;
+    font-weight: 400;
+    line-height: 40px;
+    margin: 40px 0 0 0;
+}
+
+@media screen and (max-width: 820px) {
+    .locations__paragraph {
+        font-size: 1.3rem;
+        line-height: 30px;
+        margin: 20px 0 0 0;
+    }
+}

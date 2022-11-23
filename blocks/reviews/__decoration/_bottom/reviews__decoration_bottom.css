@@ -1,0 +1,11 @@
+.reviews__decoration_bottom {
+    position: absolute;
+    right: 0;
+    bottom: -50%;
+}
+
+@media screen and (max-width: 768px) {
+    .reviews__decoration_bottom {
+        display: none;
+    }
+}

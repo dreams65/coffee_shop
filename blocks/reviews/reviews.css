@@ -1,0 +1,12 @@
+.reviews {
+    margin: 149px 0 0 0;
+    position: relative;
+    display: flex;
+    flex-direction: row-reverse;
+}
+
+@media screen and (max-width: 820px) {
+    .reviews {
+        flex-direction: column;
+    }
+}

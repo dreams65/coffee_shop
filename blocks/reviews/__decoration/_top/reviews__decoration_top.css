@@ -1,0 +1,8 @@
+.reviews__decoration_top {
+    position: absolute;
+    left: 0;
+    top: -76%;
+    max-width: 550px;
+    width: 100%;
+    height: auto;
+}

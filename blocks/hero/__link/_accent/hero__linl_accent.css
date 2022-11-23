@@ -1,0 +1,19 @@
+.hero__link_accent {
+    background-color: var(--Accent);
+    color: #fff;
+    padding: 20px 40px;
+    font-weight: 500;
+    border-radius: 63px;
+    transition: .3s;
+}
+
+.hero__link_accent:hover {
+    background-color: var(--Accent-body);
+    transition: .3s;
+}
+
+@media screen and (max-width: 820px) {
+    .hero__link_accent {
+       padding: 10px 20px;
+    }
+}

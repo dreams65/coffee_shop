@@ -1,0 +1,19 @@
+.explore__title {
+    font-size: var(--Title-Size);
+    color: var(--Accent);
+    max-width: 702px;
+    width: 100%;
+    line-height: 70px;
+    margin: 0 auto;
+    margin-top: 150px;
+}
+
+@media screen and (max-width: 820px) {
+    .explore__title {
+        font-size: var(--Title-Size-Sm);
+        margin-top: 70px;
+        line-height: 60px;
+        max-width: 768px;
+        text-align: center;
+    }
+}

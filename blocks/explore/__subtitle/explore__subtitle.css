@@ -1,0 +1,16 @@
+.explore__subtitle {
+    font-size: var(--Subtitle-size);
+    color: var(--Accent-body);
+    max-width: 604px;
+    width: 100%;
+    line-height: 35px;
+    margin: 0 auto;
+    margin-top: 24px;
+    text-align: center;
+}
+
+@media screen and (max-width: 820px) {
+    .explore__subtitle {
+        line-height: 20px;
+    }
+}

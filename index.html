@@ -1,0 +1,507 @@
+<!DOCTYPE html>
+<html lang="zxx">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="robots" content="noindex">
+  <meta name="googlebot" content="noindex">
+  <link rel="stylesheet" href="./index.css">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.css">
+  <title>Online Coffee Shop</title>
+</head>
+
+<body>
+ <div class="preloader">
+    <div class="preloader__row">
+        <div class="preloader__item">
+          <img class="preloader__svg" src="./img/62338-coffee-time.gif" alt="coffee-cup-animate">
+          <p class="preloader__text">loading...</p>
+        </div>
+    </div>
+ </div>
+  <header class="header">
+    <div class="container">
+      <div class="header__row">
+        <img class="header__logo" src="./img/brand.svg" alt="company-brand">
+        <div class="header__wrapper">
+          <nav class="header__nav">
+            <ul class="header__nav-items">
+              <li class="header__nav-item"><a class="header__nav-link" href="#">Cafe Menu</a></li>
+              <li class="header__nav-item"><a class="header__nav-link" href="#">About Us</a></li>
+              <li class="header__nav-item"><a class="header__nav-link" href="#">Find Us</a></li>
+              <li class="header__nav-item"><a class="header__nav-link" href="#">Alowishus Catering</a></li>
+            </ul>
+          </nav>
+          <div class="header__buttons">
+            <button class="header__button header__button_icon popup-trigger"></button>
+            <button class="header__button header__button_accent">buy gift voucher</button>
+          </div>
+        </div>
+        <button class="header__burger-btn">
+          <span class="header__burger-btn_line"></span>
+        </button>
+      </div>
+    </div>
+    <div class="header__mobile-overlay"></div>
+  </header>
+
+  <main class="main">
+    <section class="hero">
+      <div class="container">
+        <div class="hero__row">
+          <div class="hero__column hero__column_left">
+            <h1 class="hero__title">Alowishus Delicious Coffee
+              <img class="hero__title_img" src="./img/awards.svg" alt="countrywide of coffee 2019-2020">
+            </h1>
+            <p class="hero__description">
+              A drink from the ‘My Alowishus’ bottled brews range OR grab one of our delicious coffee’s.
+            </p>
+            <div class="hero__links">
+              <a class="hero__link hero__link_accent" href="#">download app</a>
+              <a class="hero__link hero__link_underline" href="#">shop coffee</a>
+            </div>
+          </div>
+          <div class="hero__column hero__column_right">
+            <img src="./img/hero_cup.svg" alt="coffee-cup">
+
+            <div class="hero__rating">
+              <ul class="hero__rating-items">
+                <li class="hero__rating-item"><img class="hero__rating-image" src="./img/ui/Star.svg" alt="rating-star">
+                </li>
+                <li class="hero__rating-item"><img class="hero__rating-image" src="./img/ui/Star.svg" alt="rating-star">
+                </li>
+                <li class="hero__rating-item"><img class="hero__rating-image" src="./img/ui/Star.svg" alt="rating-star">
+                </li>
+                <li class="hero__rating-item"><img class="hero__rating-image" src="./img/ui/Star.svg" alt="rating-star">
+                </li>
+                <li class="hero__rating-item"><img class="hero__rating-image" src="./img/ui/Star.svg" alt="rating-star">
+                </li>
+              </ul>
+              <p class="hero__rating-text">4.9 out of 5 Overall Star Rating for All Local Business.</p>
+            </div>
+            <img class="hero__awards" src="./img/awards.svg" alt="countrywide of coffee 2019-2020">
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="explore">
+      <div class="container">
+        <h2 class="explore__title">Explore Our Alowishus</h2>
+        <p class="explore__subtitle">
+          A drink from the ‘My Alowishus’ bottled brews range OR grab one of our delicious coffee’s.
+        </p>
+        <div class="card-wrapper">
+          <div class="card card_product-info">
+            <h3 class="card__title">Our Catering</h3>
+            <p class="card__description">Alowishus Catering, delicious drop off Catering</p>
+            <img class="card__image" src="./img/card_icon_food.svg" alt="dinner">
+            <a class="card__link" href="#">order catering</a>
+          </div>
+
+          <div class="card card_product-info">
+            <h3 class="card__title">The Food</h3>
+            <p class="card__description">Our entire menu is available as dine in or takeaway.</p>
+            <img class="card__image" src="./img/card_icon_fast-food.svg" alt="fast-food">
+            <a class="card__link" href="#">food menu</a>
+          </div>
+
+          <div class="card card_product-info">
+            <h3 class="card__title">The Gelato</h3>
+            <p class="card__description">Life is like GELATO, enjoy it before it melts.</p>
+            <img class="card__image" src="./img/card_icon_ice-cream.svg" alt="ice-cream">
+            <a class="card__link" href="#">discover more</a>
+          </div>
+        </div>
+      </div>
+      <img class="explore__decoration-image" src="./img/cup_body1.svg" alt="coffee-cup">
+    </section>
+
+    <section class="favourite">
+      <div class="container">
+        <div class="favourite__row">
+          <img class="favourite__image" src="./img/best_order.svg" alt="Your Favourite Coffee">
+          <div class="offer">
+            <h2 class="offer__title">Order Your Favourite Coffee</h2>
+            <p class="offer__paragraph">
+              Amet minim mollit non deserunt ullamco est sit aliqua dolor do&nbsp;amet sint. Velit officia
+              consequat duis enim velit mollit. Exercitation veniam consequat sunt nostrud amet.
+            </p>
+            <a class="offer__link" href="#">Order Now</a>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="best-products">
+      <div class="container">
+        <h2 class="best-products__title">Best Selling Coffee</h2>
+        <p class="best-products__subtitle">A drink from the ‘My Alowishus’ bottled brews range OR grab one of
+          our delicious coffee’s.</p>
+
+
+        <div class="card-wrapper">
+          <div class="order-card card">
+            <div class="order-card__top">
+              <img class="order-card__image" src="./img/product_card1.svg" alt="double espresso">
+              <div class="order-card__heading">
+                <p class="order-card__sells-better">#1 Selling</p>
+                <h3 class="order-card__title">Double Espresso</h3>
+              </div>
+            </div>
+            <div class="order-card__bottom">
+              <p class="order-card__description">Amet minim mollit non deserunt dolor ullamco est sit
+                aliqua dolor do amet sint. Velit officia consequat duis.</p>
+              <div class="order-card__buy">
+                <p class="order-card__cost"><span>$</span>59.99</p>
+                <button class="order-card__btn">order now</button>
+              </div>
+            </div>
+          </div>
+          <div class="order-card card">
+            <div class="order-card__top">
+              <img class="order-card__image" src="./img/product_card2.svg" alt="double espresso">
+              <div class="order-card__heading">
+                <p class="order-card__sells-better">#2 Selling</p>
+                <h3 class="order-card__title">Caramel Frappe</h3>
+              </div>
+            </div>
+            <div class="order-card__bottom">
+              <p class="order-card__description">Amet minim mollit non deserunt dolor ullamco est sit
+                aliqua dolor do amet sint. Velit officia consequat duis.</p>
+              <div class="order-card__buy">
+                <p class="order-card__cost"><span>$</span>59.99</p>
+                <button class="order-card__btn">order now</button>
+              </div>
+            </div>
+          </div>
+          <div class="order-card card">
+            <div class="order-card__top">
+              <img class="order-card__image" src="./img/product_card3.svg" alt="double espresso">
+              <div class="order-card__heading">
+                <p class="order-card__sells-better">#3 Selling</p>
+                <h3 class="order-card__title">Iced Coffee</h3>
+              </div>
+            </div>
+            <div class="order-card__bottom">
+              <p class="order-card__description">Amet minim mollit non deserunt dolor ullamco est sit
+                aliqua dolor do amet sint. Velit officia consequat duis.</p>
+              <div class="order-card__buy">
+                <p class="order-card__cost"><span>$</span>59.99</p>
+                <button class="order-card__btn">order now</button>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <img class="best-products__decoration" src="./img/cup_body2.svg" alt="coffee-cup">
+    </section>
+
+    <section class="our-app">
+      <div class="container">
+        <div class="our-app__row">
+          <div class="our-app__wrapper">
+            <h2 class="our-app__title">Instant Coffee At Your Home</h2>
+            <p class="our-app__description">
+              Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet sint.
+              Velit officia consequat duis enim velit mollit. Exercitation veniam consequat sunt nostrud amet.
+            </p>
+            <a class="our-app__link" href="#">download our app</a>
+          </div>
+          <div class="our-app__images">
+            <img class="our-app__image" src="./img/pre-app.svg" alt="Alowishus mobile app">
+            <img class="our-app__elipse animation-rotate" src="./img/Ellipse10.svg" alt="elipse width animation">
+          </div>
+        </div>
+      </div>
+      <img class="our-app__decoration" src="./img/cup_body3.svg" alt="coffee-cup">
+    </section>
+
+    <section class="reviews">
+      <div class="container">
+        <div class="reviews__row">
+          <div class="reviews__wrapper">
+            <h2 class="reviews__title">What Our Customers Say</h2>
+            <div class="reviews__inner">
+              <p class="reviews__points">4.9</p>
+              <div class="reviews__rating">
+                <ul class="stars">
+                  <li class="stars__item"><img class="stars__image" src="./img/ui/bxs-star2.svg" alt="rating star">
+                  </li>
+                  <li class="stars__item"><img class="stars__image" src="./img/ui/bxs-star2.svg" alt="rating star">
+                  </li>
+                  <li class="stars__item"><img class="stars__image" src="./img/ui/bxs-star2.svg" alt="rating star">
+                  </li>
+                  <li class="stars__item"><img class="stars__image" src="./img/ui/bxs-star2.svg" alt="rating star">
+                  </li>
+                  <li class="stars__item"><img class="stars__image" src="./img/ui/bxs-star2.svg" alt="rating star">
+                  </li>
+                </ul>
+                <p class="reviews__description">based on 2452+ reviews</p>
+              </div>
+
+            </div>
+            <div class="swiper-controls">
+              <div class="swiper-button-next control-swiper"></div>
+              <div class="swiper-button-prev control-swiper"></div>
+            </div>
+          </div>
+
+        </div>
+
+      </div>
+      <div class="swiper">
+
+        <div class="swiper-wrapper">
+
+          <div class="swiper-slide">
+            <div class="customers-card">
+              <img class="customers-card__img" src="./img/client-reviews1.png" alt="Customers photo">
+              <div class="customers-card__content">
+                <div class="customer-card__heading">
+                  <h3 class="customers-card__title">Imam White</h3>
+                  <ul class="stars">
+                    <li class="stars__item"><img class="stars__image" src="./img/ui/bxs-star2.svg" alt="rating star">
+                    </li>
+                    <li class="stars__item"><img class="stars__image" src="./img/ui/bxs-star2.svg" alt="rating star">
+                    </li>
+                    <li class="stars__item"><img class="stars__image" src="./img/ui/bxs-star2.svg" alt="rating star">
+                    </li>
+                    <li class="stars__item"><img class="stars__image" src="./img/ui/bxs-star2.svg" alt="rating star">
+                    </li>
+                    <li class="stars__item"><img class="stars__image" src="./img/ui/bxs-star2.svg" alt="rating star">
+                    </li>
+                  </ul>
+                </div>
+                <p class="customers-card__reviews">
+                  “Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet sint. Velit officia consequat
+                  duis enim velit mollit. Exercitation veniam consequat sunt nostrud amet. Amet minim mollit non
+                  deserunt ullamco est sit aliqua dolor do amet sint. Velit officia”
+                </p>
+              </div>
+            </div>
+          </div>
+          <div class="swiper-slide">
+            <div class="customers-card">
+              <img class="customers-card__img" src="./img/client-reviews2.png" alt="Customers photo">
+              <div class="customers-card__content">
+                <div class="customer-card__heading">
+                  <h3 class="customers-card__title">Brooklyn Simmons</h3>
+                  <ul class="stars">
+                    <li class="stars__item"><img class="stars__image" src="./img/ui/bxs-star2.svg" alt="rating star">
+                    </li>
+                    <li class="stars__item"><img class="stars__image" src="./img/ui/bxs-star2.svg" alt="rating star">
+                    </li>
+                    <li class="stars__item"><img class="stars__image" src="./img/ui/bxs-star2.svg" alt="rating star">
+                    </li>
+                    <li class="stars__item"><img class="stars__image" src="./img/ui/bxs-star2.svg" alt="rating star">
+                    </li>
+                    <li class="stars__item"><img class="stars__image" src="./img/ui/bxs-star2.svg" alt="rating star">
+                    </li>
+                  </ul>
+                </div>
+                <p class="customers-card__reviews">
+                  “Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet sint. Velit officia consequat
+                  duis enim velit mollit. Exercitation veniam consequat sunt nostrud amet. Amet minim mollit non
+                  deserunt ullamco est sit aliqua dolor do amet sint. Velit officia”
+                </p>
+              </div>
+            </div>
+          </div>
+          <div class="swiper-slide">
+            <div class="customers-card">
+              <img class="customers-card__img" src="./img/client-reviews1.png" alt="Customers photo">
+              <div class="customers-card__content">
+                <div class="customer-card__heading">
+                  <h3 class="customers-card__title">Imam White</h3>
+                  <ul class="stars">
+                    <li class="stars__item"><img class="stars__image" src="./img/ui/bxs-star2.svg" alt="rating star">
+                    </li>
+                    <li class="stars__item"><img class="stars__image" src="./img/ui/bxs-star2.svg" alt="rating star">
+                    </li>
+                    <li class="stars__item"><img class="stars__image" src="./img/ui/bxs-star2.svg" alt="rating star">
+                    </li>
+                    <li class="stars__item"><img class="stars__image" src="./img/ui/bxs-star2.svg" alt="rating star">
+                    </li>
+                    <li class="stars__item"><img class="stars__image" src="./img/ui/bxs-star2.svg" alt="rating star">
+                    </li>
+                  </ul>
+                </div>
+                <p class="customers-card__reviews">
+                  “Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet sint. Velit officia consequat
+                  duis enim velit mollit. Exercitation veniam consequat sunt nostrud amet. Amet minim mollit non
+                  deserunt ullamco est sit aliqua dolor do amet sint. Velit officia”
+                </p>
+              </div>
+            </div>
+          </div>
+          <div class="swiper-slide">
+            <div class="customers-card">
+              <img class="customers-card__img" src="./img/client-reviews2.png" alt="Customers photo">
+              <div class="customers-card__content">
+                <div class="customer-card__heading">
+                  <h3 class="customers-card__title">Brooklyn Simmons</h3>
+                  <ul class="stars">
+                    <li class="stars__item"><img class="stars__image" src="./img/ui/bxs-star2.svg" alt="rating star">
+                    </li>
+                    <li class="stars__item"><img class="stars__image" src="./img/ui/bxs-star2.svg" alt="rating star">
+                    </li>
+                    <li class="stars__item"><img class="stars__image" src="./img/ui/bxs-star2.svg" alt="rating star">
+                    </li>
+                    <li class="stars__item"><img class="stars__image" src="./img/ui/bxs-star2.svg" alt="rating star">
+                    </li>
+                    <li class="stars__item"><img class="stars__image" src="./img/ui/bxs-star2.svg" alt="rating star">
+                    </li>
+                  </ul>
+                </div>
+                <p class="customers-card__reviews">
+                  “Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet sint. Velit officia consequat
+                  duis enim velit mollit. Exercitation veniam consequat sunt nostrud amet. Amet minim mollit non
+                  deserunt ullamco est sit aliqua dolor do amet sint. Velit officia”
+                </p>
+              </div>
+            </div>
+          </div>
+          <div class="swiper-slide">
+            <div class="customers-card">
+              <img class="customers-card__img" src="./img/client-reviews1.png" alt="Customers photo">
+              <div class="customers-card__content">
+                <div class="customer-card__heading">
+                  <h3 class="customers-card__title">Imam White</h3>
+                  <ul class="stars">
+                    <li class="stars__item"><img class="stars__image" src="./img/ui/bxs-star2.svg" alt="rating star">
+                    </li>
+                    <li class="stars__item"><img class="stars__image" src="./img/ui/bxs-star2.svg" alt="rating star">
+                    </li>
+                    <li class="stars__item"><img class="stars__image" src="./img/ui/bxs-star2.svg" alt="rating star">
+                    </li>
+                    <li class="stars__item"><img class="stars__image" src="./img/ui/bxs-star2.svg" alt="rating star">
+                    </li>
+                    <li class="stars__item"><img class="stars__image" src="./img/ui/bxs-star2.svg" alt="rating star">
+                    </li>
+                  </ul>
+                </div>
+                <p class="customers-card__reviews">
+                  “Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet sint. Velit officia consequat
+                  duis enim velit mollit. Exercitation veniam consequat sunt nostrud amet. Amet minim mollit non
+                  deserunt ullamco est sit aliqua dolor do amet sint. Velit officia”
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <img class="reviews__decoration_top" src="./img/cup_body5.png" alt="coffee-cup">
+      <img class="reviews__decoration_bottom" src="./img/cup_body4.svg" alt="coffee-cup">
+    </section>
+
+    <section class="contact">
+      <div class="container">
+        <div class="contact__row">
+          <div class="contact__mission">
+            <img class="contacts__mission-img" src="./img/brand.svg" alt="company logo">
+            <p class="contact__mission-paragraph">
+              We made it our mission to create community everyday and grow meaningful, lasting relationships with our
+              staff, our suppliers and of course you, our customers.
+            </p>
+          </div>
+          <div class="our-contacts">
+            <h3 class="our-contacts__title">Contact Alowishus!</h3>
+            <div class="our-contacts__wrapper">
+              <ul class="contacts__items">
+                <li class="contacts__item"><img class="contacts__icon" src="./img/ui/email.svg"
+                    alt="email-icon">alowishus@gmail.com</li>
+                <li class="contacts__item"><img class="contacts__icon" src="./img/ui/Call.svg" alt="phone-icon">
+                  <a class="contacts__item_link" href="+1102142142451" type="phone">+110 214 214 2451</a>
+                </li>
+              </ul>
+              <ul class="social__links">
+                <li class="social__item">
+                  <a class="social__link" href="#">
+                    <img class="social__link_icon" src="./img/ui/bxl-facebook.svg" alt="facebook-icon">
+                  </a>
+                </li>
+                <li class="social__item">
+                  <a class="social__link" href="#">
+                    <img class="social__link_icon" src="./img/ui/bxl-instagram.svg" alt="instagram-icon">
+                  </a>
+                </li>
+                <li class="social__item">
+                  <a class="social__link" href="#">
+                    <img class="social__link_icon" src="./img/ui/bxl-twitter.svg" alt="twitter-icon">
+                  </a>
+                </li>
+                <li class="social__item">
+                  <a class="social__link" href="#">
+                    <img class="social__link_icon" src="./img/ui/bxl-linkedin.svg" alt="likedin-icon">
+                  </a>
+                </li>
+              </ul>
+            </div>
+          </div>
+        </div>
+        <div class="contact__row">
+          <div class="locations">
+            <h3 class="locations__title">Store Locations</h3>
+            <p class="locations__paragraph">
+              Find your nearest Alowishus store with opening hours, location and contact details.
+            </p>
+            <a class="locations__link" href="#">Find my Alowishus
+              <img class="locations__link-arrow" src="./img/ui/arrow-right.svg" alt="link-arrow">
+            </a>
+          </div>
+          <div class="subscribe">
+            <h3 class="subscribe__title">First One’s On Us!</h3>
+            <form class="subscribe__form" action="#">
+              <input class="subscribe__input subscribe__input_type_email" type="text" placeholder="E-mail">
+              <button type="submit" class="subscribe__btn subscribe__btn_submit">subscribe</button>
+            </form>
+          </div>
+        </div>
+      </div>
+    </section>
+
+  </main>
+
+
+  <footer class="footer">
+    <div class="container">
+      <hr class="footer__separator">
+      <div class="footer__wrapper">
+        <div class="footer__copyright">
+          <p class="footer__copyright-paragraph">
+            Copyright &#169; 2022
+            <span class="footer__copyright-span">Alowishus Delicious</span>
+          </p>
+        </div>
+        <ul class="footer__links">
+          <li class="footer__links-item">
+            <a class="footer__link" href="#">Terms of Use</a>
+          </li>
+          <li class="footerter__links-item">
+            <a class="footer__link" href="#">Privacy Policy</a>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </footer>
+
+  <div class="popup">
+    <div class="popup__overlay"></div>
+    <div class="popup__body">
+      <button class="popup__close-btn">X</button>
+    </div>
+  </div>
+</body>
+<script src="./blocks/preloader/preloader.js"></script>
+<script src="./blocks/header/header.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.11.3/gsap.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.11.3/ScrollTrigger.min.js"></script>
+<script src="body-animation.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.js"></script>
+<script src="./slider.js"></script>
+<script src="./blocks/popup/popup.js"></script>
+
+</html>

@@ -1,0 +1,12 @@
+.customers-card__title {
+    font-size: var(--Subtitle-Size);
+    color: var(--Acccent);
+    margin: 0 16px 0 0;
+    font-weight: 600;
+}
+
+@media screen and (max-width: 820px) {
+    .customers-card__title {
+        font-size: 20px;
+    }
+}

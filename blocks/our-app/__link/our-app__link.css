@@ -1,0 +1,23 @@
+.our-app__link {
+    color: #fff;
+    text-decoration: none;
+    text-transform: uppercase;
+    background: var(--Accent);
+    padding: 20px 40px;
+    max-width: max-content;
+    width: 100%;
+    transition: .3s;
+    border-radius: 126px;
+    margin-top: 60px;
+    display: block;
+}
+
+.our-app__link:hover {
+    background: var(--Accent-body);
+}
+
+@media screen and (max-width: 820px) {
+    .our-app__link {
+        margin: 60px auto 0 auto;
+    }   
+}

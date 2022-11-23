@@ -1,0 +1,26 @@
+.header__burger-btn_line {
+    width: 30px;
+    height: 2px;
+    display: block;
+    background-color: var(--Accent);
+}
+
+.header__burger-btn_line::before {
+    content: '';
+    width: 30px;
+    height: 2px;
+    background-color: var(--Accent);
+    position: absolute;
+    top: 13px;
+    left: 6px;
+}
+
+.header__burger-btn_line::after {
+    content: '';
+    width: 30px;
+    height: 2px;
+    background-color: var(--Accent);
+    position: absolute;
+    bottom: 13px;
+    left: 6px;
+}

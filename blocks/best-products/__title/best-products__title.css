@@ -1,0 +1,14 @@
+.best-products__title {
+    color: var(--Accent);
+    font-size: var(--Title-Size);
+    font-weight: 800;
+    text-align: center;
+    margin: 189px 0 0 0;
+}
+
+@media screen and (max-width: 820px) {
+    .best-products__title {
+        font-size: var(--Title-Size-Sm);
+        
+    }
+}

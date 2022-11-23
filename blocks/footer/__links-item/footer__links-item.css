@@ -1,0 +1,5 @@
+.footer__links-item:first-child:after{
+    content: '|';
+    color: var(--Accent-body);
+    margin: 0px 12px 0px 12px;
+}

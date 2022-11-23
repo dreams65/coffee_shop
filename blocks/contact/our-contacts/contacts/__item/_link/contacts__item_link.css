@@ -1,0 +1,4 @@
+.contacts__item_link {
+    text-decoration: none;
+    color: var(--Accent-body);
+}
